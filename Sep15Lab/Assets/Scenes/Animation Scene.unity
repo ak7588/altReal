@@ -6536,6 +6536,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13d4c29ee027f4f3e8895dfecca476d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  start: {x: -12.034, y: 3.78, z: 0.216}
+  end: {x: -17.14, y: 4.819, z: -4.43}
+  duration: 4
 --- !u!135 &1507066627
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6606,7 +6609,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1507066625}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.034, y: 3.78, z: 0.216}
+  m_LocalPosition: {x: -11.438, y: 3.817, z: -0.152}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

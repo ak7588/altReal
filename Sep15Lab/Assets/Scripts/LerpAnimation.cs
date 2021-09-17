@@ -13,6 +13,7 @@ public class LerpAnimation : MonoBehaviour
     void Start()
     {
         currentPos = 0;
+        transform.position = start;
     }
 
     // Update is called once per frame
@@ -20,7 +21,7 @@ public class LerpAnimation : MonoBehaviour
     {
         if (transform.position != end) {
             currentPos += Time.deltaTime / duration;
-            currentPos = Mathf.Clamp(currentPos);
+            currentPos = Mathf.Clamp01(currentPos);
             transform.position = Vector3.Lerp(start, end, currentPos);
         }
     }
