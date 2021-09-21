@@ -1331,7 +1331,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 418898169}
-  - component: {fileID: 418898170}
   - component: {fileID: 418898171}
   m_Layer: 0
   m_Name: Trains
@@ -1356,21 +1355,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &418898170
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 418898168}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13416b00ca1b541de91a158b56c7c973, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  start: {x: -329.5673, y: -161.3508, z: -606.5995}
-  end: {x: -329.5673, y: -161.3508, z: -958}
-  timeInSeconds: 15
 --- !u!95 &418898171
 Animator:
   serializedVersion: 3
@@ -2666,7 +2650,7 @@ AudioSource:
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
-  Mute: 1
+  Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
@@ -3666,8 +3650,16 @@ PlayableDirector:
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
-  - key: {fileID: 6217039905904560661, guid: dec9fb390b3714b908cd6519b052d3fa, type: 2}
-    value: {fileID: 0}
+  - key: {fileID: 3606904038787366756, guid: dec9fb390b3714b908cd6519b052d3fa, type: 2}
+    value: {fileID: 1847632629}
+  - key: {fileID: -143509887793266688, guid: dec9fb390b3714b908cd6519b052d3fa, type: 2}
+    value: {fileID: 1788350559}
+  - key: {fileID: 8978270836673948981, guid: dec9fb390b3714b908cd6519b052d3fa, type: 2}
+    value: {fileID: 1020900052}
+  - key: {fileID: -3844160293945360524, guid: dec9fb390b3714b908cd6519b052d3fa, type: 2}
+    value: {fileID: 1491519173}
+  - key: {fileID: -1323357801642479405, guid: dec9fb390b3714b908cd6519b052d3fa, type: 2}
+    value: {fileID: 418898171}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1271524139
@@ -3678,7 +3670,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1271524137}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -89.588615, y: -12.602261, z: -127.43288}
+  m_LocalPosition: {x: -89.588615, y: -161.3508, z: -606.5995}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4274,7 +4266,7 @@ AudioSource:
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
-  Mute: 1
+  Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
@@ -5278,7 +5270,7 @@ AudioSource:
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
-  Mute: 1
+  Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
@@ -5716,7 +5708,7 @@ AudioSource:
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
-  Mute: 1
+  Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
@@ -5987,7 +5979,7 @@ AudioSource:
   m_Volume: 0.41
   m_Pitch: 1
   Loop: 0
-  Mute: 1
+  Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
