@@ -1,8 +1,8 @@
 # Prepare to brace, Snowpier...wait, it's ALTREAL TRAIN!
 
-_Dear Passengers, the ALTREAL train will take off in 30 minutes. If you haven't boarded yet, please do so immediately._
+📣 _Dear Passengers, the ALTREAL train will take off in 30 minutes. If you haven't boarded yet, please do so immediately._ 📣
 
----
+![](https://github.com/ak7588/altReal/blob/master/Project-1-Snowpiercer/Project%201%20Info/project_image.png)
 
 ## Introduction
 
@@ -14,15 +14,23 @@ After watching this show, I started to have a series of nightmare-dreams about l
 
 The theme of the environment is modern, gothic -- and dark overall. There might be a few sounds used for a better immersion. I am planning to download free Unity assets from the Asset Store and see how they fit the environment.
 
-Original Snowpiercer image:
+## ALTREAL Environment
 
-![](https://github.com/ak7588/altReal/blob/master/Project-1-Snowpiercer/Project%201%20Info/project_image.png)
+When the user enters the project, they are presented with a scene of the train station in the winter. The user is placed between the train station building and the train. The scene consists of the nature (mountains, snow, gloomy skybox) as well as the architecture elements (abandoned buildings, railroad, trash and boxes). For the immersive experience, sounds of the snow blizzard and the train station announcements can be heard. After a few announcements, the train takes off from the station and leaves the user behind.
 
+## Unity Process
 
-## Welcome to GitHub Pages
+I started off by creating the scene of the Altreal Train Station. After downloading assets of the landscape, trains, and abandoned buildings, the final train station came to life. I added special skybox effects, such as moving clouds, to add the winter storm effect.
 
-You can use the [editor on GitHub](https://github.com/ak7588/altReal/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+When the visual environment was built, I added a few immersive elements that could convey the meaning of the story -- a horror train station and a rushing train that leaves the user behind. To reinforce this experience, I made a timeline and added sounds and animation that "show-and-tell" what is happening in the scene.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Challenges
 
-.
+One of the main challenges was thinking of design choices for the scene. With an abundance of assets, sounds, and other visual elements, it sometimes was a daunting task to choose a specific element. To resolve this, I decided to start off with an empty scene and asked myself: what makes a train station? Can my environment still look like a train station if I remove X, Y, Z elements from the scene? Answering these questions helped to clean the scene and, hopefully, portray the right feeling for the user. I need to add that getting feedback from my peers (a.k.a user-testing) helped me see missing elements (such as adding sound effects to convey the rush) and improve the scene overall.
+
+Another significant challenge was getting over the learning curve of using Unity. Adding C# scripts, animations, and establishing the timeline would be much more difficult to manage if not the previously recorded labs from the class.
+
+## Reflections and Next Steps
+
+Overall, I am feeling good about the final result of this project. However, that is not to say that there cannot be any improvements. In the next few steps, I would think how to make the scene more immersive _and_ interactive for the user. What other sound or visual effects can be added? What elements can become interactive? Does this portray the scene or the feeling I am going for? Exploring different assets and seeing other similar - if not more advanced - projects would help going forward.
+
