@@ -31,14 +31,14 @@ I started off by creating the scene of the Altreal Train Station. After download
 
 When the visual environment was built, I added a few immersive elements that could convey the meaning of the story -- a horror train station and a rushing train that leaves the user behind. To reinforce this experience, I made a timeline and added sounds and animation that "show-and-tell" what is happening in the scene.
 
-![Unity process image](https://github.com/ak7588/altReal/blob/master/Project-1-Snowpiercer/Project%201%20Info/unityProcess.png)
+![Unity process image](unityProcess.png)
 
 ## Challenges
 
 One of the main challenges was thinking of design choices for the scene. With an abundance of assets, sounds, and other visual elements, it sometimes was a daunting task to choose a specific element. To resolve this, I decided to start off with an empty scene and asked myself: what makes a train station? Can my environment still look like a train station if I remove X, Y, Z elements from the scene? Answering these questions helped to clean the scene and, hopefully, portray the right feeling for the user. I need to add that getting feedback from my peers (a.k.a user-testing) helped me see missing elements (such as adding sound effects to convey the rush) and improve the scene overall.
 
 For example, this is the scene before getting feedback:
-![Example scene image](https://github.com/ak7588/altReal/blob/master/Project-1-Snowpiercer/Project%201%20Info/beginning.png)
+![Example scene image](beginning.png)
 
 Another significant challenge was getting over the learning curve of using Unity. Adding C# scripts, animations, and establishing the timeline would be much more difficult to manage if not the previously recorded labs from the class.
 
