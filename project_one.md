@@ -41,3 +41,4 @@ Another significant challenge was getting over the learning curve of using Unity
 
 Overall, I am feeling good about the final result of this project. However, that is not to say that there cannot be any improvements. In the next few steps, I would think how to make the scene more immersive _and_ interactive for the user. What other sound or visual effects can be added? What elements can become interactive? Does this portray the scene or the feeling I am going for? Exploring different assets and seeing other similar - if not more advanced - projects would help going forward.
 
+![](https://github.com/ak7588/altReal/blob/master/Project-1-Snowpiercer/Project%201%20Info/final.png)
