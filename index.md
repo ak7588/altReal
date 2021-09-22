@@ -2,13 +2,13 @@
 
 📣 _Dear Passengers, the ALTREAL train will take off in 30 minutes. If you haven't boarded yet, please do so immediately._ 📣
 
-![Project image](https://github.com/ak7588/altReal/blob/master/Project-1-Snowpiercer/Project%201%20Info/project_image.png)
+![Project image](project_image.png)
 
 ## Visual and UX Documentation
 
 [Open this link for the video walk-through.](https://youtu.be/N8klnC0xMFk)
 
-![Scene image](https://github.com/ak7588/altReal/blob/master/Project-1-Snowpiercer/Project%201%20Info/final.png)
+![Scene image](final.png)
 
 
 ## Introduction
