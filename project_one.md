@@ -4,6 +4,8 @@
 
 ![](https://github.com/ak7588/altReal/blob/master/Project-1-Snowpiercer/Project%201%20Info/project_image.png)
 
+[Open this link for the video walk-through.](https://youtu.be/N8klnC0xMFk)
+
 ## Introduction
 
 For this project, I got inspired by the TV Series called *Snowpiercer*.
