@@ -16,22 +16,22 @@ public class HandVisualController : MonoBehaviour
 
     private void OnEnable()
     {
-        interactor.selectEntered.AddListener(hideHand);
-        interactor.selectExited.AddListener(showHand);
+        interactor.selectEntered.AddListener(HideHand);
+        interactor.selectExited.AddListener(ShowHand);
     }
 
     private void OnDisable()
     {
-        interactor.selectEntered.RemoveListener(hideHand);
-        interactor.selectExited.RemoveListener(showHand);
+        interactor.selectEntered.RemoveListener(HideHand);
+        interactor.selectExited.RemoveListener(ShowHand);
     }
 
-    void hideHand(SelectEnterEventArgs args)
+    void HideHand(SelectEnterEventArgs args)
     {
         handVisual.SetActive(false);
     }
 
-    void showHand(SelectExitEventArgs args)
+    void ShowHand(SelectExitEventArgs args)
     {
         handVisual.SetActive(true);
     }
