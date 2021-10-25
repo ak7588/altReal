@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using UnityEngine.SceneManagement;
-using UnityEditor.SceneManagement;
+// using UnityEditor.SceneManagement;
 using System.Linq;
 
 [DisallowMultipleComponent]
@@ -11,7 +11,7 @@ using System.Linq;
 public class XRSceneTransitionManager : MonoBehaviour
 {
     public static XRSceneTransitionManager Instance;
-
+    public string initialScene;
     public bool isLoading { get; private set; } = false;
 
     Scene xrScene;
@@ -30,6 +30,11 @@ public class XRSceneTransitionManager : MonoBehaviour
 
         xrScene = SceneManager.GetActiveScene();
         SceneManager.sceneLoaded += OnNewSceneAdded;
+
+        if (!Application.isEditor)
+        {
+            TransitionTo(initialScene);
+        }
     }
 
     public void TransitionTo(string scene) {
