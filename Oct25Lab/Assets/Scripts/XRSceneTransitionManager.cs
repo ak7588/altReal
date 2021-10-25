@@ -13,9 +13,12 @@ public class XRSceneTransitionManager : MonoBehaviour
     public static XRSceneTransitionManager Instance;
     public string initialScene;
     public bool isLoading { get; private set; } = false;
+    public Material transitionMaterial;
+    public float transitionSpeed = 1.0f;
 
     Scene xrScene;
     Scene currentScene;
+    float currentTransitionAmount = 0.0f;
 
     private void Awake()
     {
@@ -53,8 +56,11 @@ public class XRSceneTransitionManager : MonoBehaviour
 
     IEnumerator Load(string scene) {
         isLoading = true;
+        yield return StartCoroutine(Fade(1.0f));
         yield return StartCoroutine(UnloadCurrentScene());
+
         yield return StartCoroutine(LoadNewScene(scene));
+        yield return StartCoroutine(Fade(0.0f));
         isLoading = false;
     }
 
@@ -72,6 +78,15 @@ public class XRSceneTransitionManager : MonoBehaviour
         {
             yield return null;
         }
+    }
+
+    IEnumerator Fade(float target) {
+        while (!Mathf.Approximately(currentTransitionAmount, target)) {
+            currentTransitionAmount = Mathf.MoveTowards(currentTransitionAmount, target, transitionSpeed * Time.deltaTime);
+            transitionMaterial.SetFloat("_FadeAmount", currentTransitionAmount);
+            yield return null;
+        }
+        transitionMaterial.SetFloat("_FadeAmount", target);
     }
 
     static public void PlaceXRRig(Scene xrScene, Scene newScene)
