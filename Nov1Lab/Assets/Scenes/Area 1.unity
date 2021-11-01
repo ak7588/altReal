@@ -470,6 +470,7 @@ GameObject:
   - component: {fileID: 336027669}
   - component: {fileID: 336027675}
   - component: {fileID: 336027674}
+  - component: {fileID: 336027673}
   m_Layer: 0
   m_Name: SpecialCube
   m_TagString: Untagged
@@ -553,6 +554,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &336027673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 336027668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 336db9c11c6244793b2f769f2c6cf3df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toScene: XR
+  changeLayer: 1
+  toLayer: 3
 --- !u!114 &336027674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -585,10 +601,34 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 336027673}
+        m_TargetAssemblyTypeName: SceneTransfer, Assembly-CSharp
+        m_MethodName: Transfer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 336027673}
+        m_TargetAssemblyTypeName: SceneTransfer, Assembly-CSharp
+        m_MethodName: Return
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_Activated:
     m_PersistentCalls:
       m_Calls: []
