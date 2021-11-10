@@ -4,21 +4,21 @@ using UnityEngine;
 
 public class DenialCubesMultiplier : MonoBehaviour
 {
-    public GameObject projectilePrefab;
-    public float launchForce = 100.0f;
-    public Transform launchSpawn;
-    int count = 0;
+    //public GameObject projectilePrefab;
+    //public float launchForce = 100.0f;
+    //public Transform launchSpawn;
+    //int count = 0;
 
-    private void Update()
-    {
-        while (count < 20)
-        {
-            GameObject projectile = GameObject.Instantiate(projectilePrefab, launchSpawn.position, launchSpawn.rotation);
-            Rigidbody rb = projectile.GetComponent<Rigidbody>();
-            rb.AddForce(projectile.transform.forward * launchForce);
-            count += 1;
-        } 
-    }
+    //private void Update()
+    //{
+    //    while (count < 20)
+    //    {
+    //        GameObject projectile = GameObject.Instantiate(projectilePrefab, launchSpawn.position, launchSpawn.rotation);
+    //        Rigidbody rb = projectile.GetComponent<Rigidbody>();
+    //        rb.AddForce(projectile.transform.forward * launchForce);
+    //        count += 1;
+    //    } 
+    //}
 
     //public void Launch()
     //{
