@@ -19,4 +19,10 @@ public static class XRSceneSelector
     {
         EditorXRSceneUtils.LoadXRScene("Area 2");
     }
+
+    [MenuItem("XR Scenes/DenialCubesScene")]
+    static void OpenCubes()
+    {
+        EditorXRSceneUtils.LoadXRScene("DenialCubesScene");
+    }
 }
