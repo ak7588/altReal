@@ -59,3 +59,6 @@ Cmd: compileSnippet
 Cmd: compileComputeKernel
   insize=3444 file=/Volumes/SAVE HERE/altReal/Nov1Lab/Library/PackageCache/com.unity.postprocessing@3.1.1/PostProcessing/Shaders/Builtins/MultiScaleVODownsample1.compute kernel=MultiScaleVODownsample1 cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=13 km=<main=MultiScaleVODownsample1>,<UNITY_VERSION=202039> pKW=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_DLDR_ENCODING uKW=SHADER_STAGE_COMPUTE platform=metal flags=4096 ok=1 outsize=5274
 
+Cmd: shutdown
+
+Quitting shader compiler process
