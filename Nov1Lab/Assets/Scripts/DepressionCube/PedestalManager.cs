@@ -10,9 +10,8 @@ public class PedestalManager : MonoBehaviour
     private float startTime;
     private float flightDistance;
 
-    // create a singleton for the gem, which also tracks the isDipped boolean
-    // get isDipped info from the singleton and store it in private bool isDipped
-    private bool isDipped = false;
+    public Material passMaterial;
+    public GameObject cube;
 
     private void Start()
     {
@@ -20,21 +19,15 @@ public class PedestalManager : MonoBehaviour
         flightDistance = Vector3.Distance(startPoint.position, endPoint.position);
     }
 
-    void Update()
-    {
-        // add listener to isDipped or check if isDipped changed state
-    }
-
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Gem")) {
-            if (!isDipped) {
-                ShootTheCube();
-            }
-            else
-            {
-                // Complete the task
-            }
+        if (other.CompareTag("Gem"))
+        {
+            ShootTheCube();
+        }
+        else if (other.CompareTag("Pass"))
+        {
+            cube.GetComponent<MeshRenderer>().material = passMaterial;
         }
     }
 
