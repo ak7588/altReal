@@ -12,6 +12,7 @@ TagManager:
   - Liquid
   - Pass
   - Talk
+  - Ring
   layers:
   - Default
   - TransparentFX
