@@ -2142,3 +2142,83 @@ Received Import Request.
 Start importing Assets/Scripts/DepressionCube/PedestalManager.cs using Guid(8eb648f589433415fb3e5b59cccafd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536d971515fe5d29daae5c264cbdb85f') in 0.001607 seconds 
   Import took 0.007812 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 1548.559269 seconds.
+  path: Assets/NPCs
+  artifactKey: Guid(e762bd95f477840b7ae3e52939327d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPCs using Guid(e762bd95f477840b7ae3e52939327d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8a49c51d894bfba07d70beeb535b74') in 0.001837 seconds 
+  Import took 0.008244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.893327 seconds.
+  path: Assets/NPCs/Ch34_nonPBR@Standing Torch Light Torch.fbx
+  artifactKey: Guid(a692cd9a10f654400a1e7c92435df750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPCs/Ch34_nonPBR@Standing Torch Light Torch.fbx using Guid(a692cd9a10f654400a1e7c92435df750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e57bd24c197747d0bbfe4b8b4851b853') in 1.063265 seconds 
+  Import took 1.070378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.903874 seconds.
+  path: Assets/NPCs/Ch34_nonPBR@Zombie Idle.fbx
+  artifactKey: Guid(b1a77b28e727740fa8a1c741b2c15766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPCs/Ch34_nonPBR@Zombie Idle.fbx using Guid(b1a77b28e727740fa8a1c741b2c15766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96a71f30fca576e11a59ef6e6672578') in 0.039356 seconds 
+  Import took 0.046219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.147952 seconds.
+  path: Assets/NPCs/Ch34_nonPBR@Zombie Idle.fbx
+  artifactKey: Guid(b1a77b28e727740fa8a1c741b2c15766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPCs/Ch34_nonPBR@Zombie Idle.fbx using Guid(b1a77b28e727740fa8a1c741b2c15766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518cd372c2d97a37a784ed569642eed2') in 0.039266 seconds 
+  Import took 0.046618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.511542 seconds.
+  path: Assets/NPCs/Ch34_nonPBR@Zombie Idle.fbx
+  artifactKey: Guid(b1a77b28e727740fa8a1c741b2c15766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPCs/Ch34_nonPBR@Zombie Idle.fbx using Guid(b1a77b28e727740fa8a1c741b2c15766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a65169267a142aaa6778c4b99fd7af') in 0.039346 seconds 
+  Import took 0.046333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 364.655328 seconds.
+  path: Assets/NPCs/Ch34_nonPBR@Standing Torch Light Torch.fbx
+  artifactKey: Guid(a692cd9a10f654400a1e7c92435df750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPCs/Ch34_nonPBR@Standing Torch Light Torch.fbx using Guid(a692cd9a10f654400a1e7c92435df750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4eac4f4dda29fe769fcca8492f84b10') in 0.140194 seconds 
+  Import took 0.148644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000507 seconds.
+  path: Assets/NPCs/Ch34_nonPBR@Zombie Idle.fbx
+  artifactKey: Guid(b1a77b28e727740fa8a1c741b2c15766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPCs/Ch34_nonPBR@Zombie Idle.fbx using Guid(b1a77b28e727740fa8a1c741b2c15766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76e973270d370fcf5a05e30bc71d6a0') in 0.132341 seconds 
+  Import took 0.140006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 262.929954 seconds.
+  path: Assets/NPCs/Ch34_nonPBR@Zombie Idle.fbx
+  artifactKey: Guid(b1a77b28e727740fa8a1c741b2c15766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPCs/Ch34_nonPBR@Zombie Idle.fbx using Guid(b1a77b28e727740fa8a1c741b2c15766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac3905f7924bd517964e972971b70b9') in 0.131112 seconds 
+  Import took 0.139098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 727.773302 seconds.
+  path: Assets/NPCs/NPCController.controller
+  artifactKey: Guid(6e98fcf2557ca4176bb505ad89489428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPCs/NPCController.controller using Guid(6e98fcf2557ca4176bb505ad89489428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa681f096844e0c452f88406aad08fc') in 0.129429 seconds 
+  Import took 0.136149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 337.527580 seconds.
+  path: Assets/NPCs/Ch34_nonPBR@Zombie Idle.fbx
+  artifactKey: Guid(b1a77b28e727740fa8a1c741b2c15766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPCs/Ch34_nonPBR@Zombie Idle.fbx using Guid(b1a77b28e727740fa8a1c741b2c15766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e30dda2b7118dea0d6ae1e1bfbf6159') in 0.133384 seconds 
+  Import took 0.141293 seconds .
+
