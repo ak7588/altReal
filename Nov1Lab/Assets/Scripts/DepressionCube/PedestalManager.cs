@@ -5,7 +5,7 @@ using UnityEngine;
 public class PedestalManager : MonoBehaviour
 {
     public GameObject projectile;
-    public float launchVelocity = 700f;
+    public float launchVelocity = 350f;
 
     private Vector3 startPoint, endPoint;
     private float lerp = 0, duration = 2;
@@ -18,7 +18,7 @@ public class PedestalManager : MonoBehaviour
     {
         if (!other.CompareTag("Pass"))
         {
-            StartCoroutine("ShootTheCube");
+            StartCoroutine(ShootTheCube(other.gameObject));
             // ShootTheCube(other);
         }
         else
@@ -27,12 +27,13 @@ public class PedestalManager : MonoBehaviour
         }
     }
 
-    IEnumerator ShootTheCube(Collider other)
+    IEnumerator ShootTheCube(GameObject other)
     {
-        startPoint = GameObject.Find("Gem").transform.position;
-        endPoint = GameObject.Find("SpawnLocation").transform.position;
-        lerp += Time.deltaTime / duration;
-        other.transform.position = Vector3.Lerp(startPoint, endPoint, lerp);
+        other.GetComponent<Rigidbody>().AddRelativeForce(new Vector3(0, launchVelocity, 0));
+        //startPoint = GameObject.Find("Gem").transform.position;
+        //endPoint = GameObject.Find("SpawnLocation").transform.position;
+        //lerp += Time.deltaTime / duration;
+        //other.transform.position = Vector3.Lerp(startPoint, endPoint, lerp);
         yield return null;
     }
 }
