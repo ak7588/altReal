@@ -11,6 +11,7 @@ TagManager:
   - Gem
   - Liquid
   - Pass
+  - Talk
   layers:
   - Default
   - TransparentFX
